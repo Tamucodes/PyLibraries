@@ -27,4 +27,6 @@ fully = np.full_like(a,4) # here the number 4 is replaced in terms of each and e
 deci_random = np.random.rand(1,2) # no needed to apss tupels 
 print(deci_random)
 
-#random integer 
+#random integer  
+int_rand = np.random.randint(7,size=(3,3)) # here 7 is the highest number so the number must be included between 0-6
+print(int_rand)
