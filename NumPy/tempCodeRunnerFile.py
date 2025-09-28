@@ -17,9 +17,3 @@ print(a[1, 0:6:2])
 #changing the elemnts in the array
 a[1,4] = 21
 print(a)
-#for bopth of them being the same digit/ data
-a[:,2] = 45
-print(a)
-#for different 2 diggits in both the row and column respectively 
-a[:,2] = [1,2]
-print(a)
